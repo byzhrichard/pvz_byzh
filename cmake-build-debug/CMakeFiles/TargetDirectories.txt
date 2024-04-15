@@ -1,0 +1,3 @@
+C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/pvz_byzh.dir
+C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/rebuild_cache.dir
