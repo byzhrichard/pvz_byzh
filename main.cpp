@@ -91,7 +91,8 @@ void userClick(){
             curX = msg.x;
             curY = msg.y;
         } else if (msg.message == WM_LBUTTONUP){
-
+            curPlant = -1;
+            status = 0;
         }
     };
 }
