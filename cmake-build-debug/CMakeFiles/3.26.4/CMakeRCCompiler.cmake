@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/windres.exe")
+set(CMAKE_RC_COMPILER "E:/byzh_edit_environment/c/TDM-GCC/bin/windres.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)

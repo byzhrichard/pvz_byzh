@@ -17,7 +17,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/gcc.exe 
+      Compiler: E:/byzh_edit_environment/c/TDM-GCC/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
@@ -39,7 +39,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/g++.exe 
+      Compiler: E:/byzh_edit_environment/c/TDM-GCC/bin/c++.exe 
       Build flags: 
       Id flags:  
       
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ihla50"
-      binary: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ihla50"
+      source: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t2xdix"
+      binary: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t2xdix"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,55 +71,58 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ihla50
+        Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t2xdix
         
-        Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_96871 && [1/2] E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_58b33 && [1/2] E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
-        COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
-        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/'
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96871.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmgEcHJ.s
-        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
-        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\cc4EXGty.s
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
-        ignoring nonexistent directory "/win/include"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../include"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
-        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
         End of search list.
-        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/'
-         as -v -o CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmgEcHJ.s
-        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
-        COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.'
-        [2/2] cmd.exe /C "cd . && E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj -o cmTC_96871.exe -Wl,--out-implib,libcmTC_96871.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\cc4EXGty.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        [2/2] cmd.exe /C "cd . && E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe  -v CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -o cmTC_58b33.exe -Wl,--out-implib,libcmTC_58b33.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe
-        COLLECT_LTO_WRAPPER=E:/byzh_edit/CLion/CLion\\ 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
-        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.1.0 (GCC) 
-        COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96871.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96871.'
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_96871.exe E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_96871.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96871.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96871.'
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58b33.exe' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmqK2SC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_58b33.exe E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_58b33.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58b33.exe' '-mtune=generic' '-march=x86-64'
         
       exitCode: 0
   -
@@ -132,16 +135,16 @@ events:
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/include]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include]
-        implicit include dirs: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [E:/byzh_edit_environment/c/TDM-GCC/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include;E:/byzh_edit_environment/c/TDM-GCC/include;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/include]
       
       
   -
@@ -153,72 +156,161 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ihla50]
+        ignore line: [Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t2xdix]
         ignore line: []
-        ignore line: [Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_96871 && [1/2] E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_58b33 && [1/2] E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/']
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96871.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmgEcHJ.s]
-        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
-        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\cc4EXGty.s]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
-        ignore line: [ignoring nonexistent directory "/win/include"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../include"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
-        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmgEcHJ.s]
-        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
-        ignore line: [COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] cmd.exe /C "cd . && E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe  -v CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj -o cmTC_96871.exe -Wl --out-implib libcmTC_96871.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\cc4EXGty.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [[2/2] cmd.exe /C "cd . && E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe  -v CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj -o cmTC_58b33.exe -Wl --out-implib libcmTC_58b33.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=E:/byzh_edit/CLion/CLion\\ 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96871.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96871.']
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_96871.exe E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_96871.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_96871.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96871.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96871.']
-        ignore line: []
-        ignore line: []
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58b33.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmqK2SC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_58b33.exe E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_58b33.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccmqK2SC.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [--exclude-libs=libpthread.a] ==> ignore
+          arg [--undefined=__xl_f] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_58b33.exe] ==> ignore
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
+          arg [CMakeFiles/cmTC_58b33.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_58b33.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib]
+        implicit libs: [mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+        implicit objs: [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/crt2.o;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/default-manifest.o;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        implicit dirs: [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib;E:/byzh_edit_environment/c/TDM-GCC/lib]
         implicit fwks: []
       
       
@@ -231,8 +323,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hhkaue"
-      binary: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hhkaue"
+      source: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b5jm43"
+      binary: "C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b5jm43"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -241,61 +333,64 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hhkaue
+        Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b5jm43
         
-        Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_96b3f && [1/2] E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_03e73 && [1/2] E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
-        COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe
         Target: x86_64-w64-mingw32
-        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/'
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_96b3f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccCUVHLb.s
-        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
-        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccyokFPV.s
+        GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
-        ignoring nonexistent directory "/win/include"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../include"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
-        ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
-        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
         End of search list.
-        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/'
-         as -v -o CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccCUVHLb.s
-        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
-        COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] cmd.exe /C "cd . && E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_96b3f.exe -Wl,--out-implib,libcmTC_96b3f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccyokFPV.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+        [2/2] cmd.exe /C "cd . && E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe  -v CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_03e73.exe -Wl,--out-implib,libcmTC_03e73.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE
-        COLLECT_LTO_WRAPPER=E:/byzh_edit/CLion/CLion\\ 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
-        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
         Thread model: posix
-        Supported LTO compression algorithms: zlib
-        gcc version 13.1.0 (GCC) 
-        COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96b3f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96b3f.'
-         E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_96b3f.exe E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_96b3f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96b3f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96b3f.'
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03e73.exe' '-mtune=generic' '-march=x86-64'
+         E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccqeIG50.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_03e73.exe E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_03e73.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03e73.exe' '-mtune=generic' '-march=x86-64'
         
       exitCode: 0
   -
@@ -308,22 +403,22 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-          add: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/include]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        collapse include dir [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include]
-        implicit include dirs: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [E:/byzh_edit_environment/c/TDM-GCC/include]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/include]
+        implicit include dirs: [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include;E:/byzh_edit_environment/c/TDM-GCC/include;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/include]
       
       
   -
@@ -335,78 +430,171 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hhkaue]
+        ignore line: [Change Dir: C:/Users/byzh/CLionProjects/pvz_byzh/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b5jm43]
         ignore line: []
-        ignore line: [Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_96b3f && [1/2] E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s):E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_03e73 && [1/2] E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/']
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_96b3f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccCUVHLb.s]
-        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
-        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT E:/byzh_edit/CLion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\byzh\\AppData\\Local\\Temp\\ccyokFPV.s]
+        ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
-        ignore line: [ignoring nonexistent directory "/win/include"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../include"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
-        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccCUVHLb.s]
-        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
-        ignore line: [COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] cmd.exe /C "cd . && E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_96b3f.exe -Wl --out-implib libcmTC_96b3f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\byzh\\AppData\\Local\\Temp\\ccyokFPV.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [[2/2] cmd.exe /C "cd . && E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe  -v CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_03e73.exe -Wl --out-implib libcmTC_03e73.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=E:\\BYZH_E~1\\CLion\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE]
-        ignore line: [COLLECT_LTO_WRAPPER=E:/byzh_edit/CLion/CLion\\ 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=E:\\byzh_edit_environment\\c\\TDM-GCC\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
-        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
         ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COMPILER_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96b3f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96b3f.']
-        ignore line: [ E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_96b3f.exe E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_96b3f.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_96b3f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96b3f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_96b3f.']
-        ignore line: []
-        ignore line: []
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03e73.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccqeIG50.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_03e73.exe E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_03e73.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=E:/byzh_edit_environment/c/TDM-GCC/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\byzh\\AppData\\Local\\Temp\\ccqeIG50.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [--exclude-libs=libpthread.a] ==> ignore
+          arg [--undefined=__xl_f] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_03e73.exe] ==> ignore
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LE:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
+          arg [CMakeFiles/cmTC_03e73.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_03e73.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-lstdc++] ==> lib [SEARCH_STATIC:stdc++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        search lib [SEARCH_STATIC:stdc++] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/libstdc++.a]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib]
+        collapse library dir [E:/byzh_edit_environment/c/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> [E:/byzh_edit_environment/c/TDM-GCC/lib]
+        implicit libs: [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/libstdc++.a;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+        implicit objs: [E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/crt2.o;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib/default-manifest.o;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        implicit dirs: [E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib;E:/byzh_edit_environment/c/TDM-GCC/lib]
         implicit fwks: []
       
       

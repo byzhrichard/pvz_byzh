@@ -1,4 +1,4 @@
-ToolSet: w64 11.0 (local)@E:\byzh_edit\CLion\CLion 2023.2.2\bin\mingw
+ToolSet: w64 8.0 (local)@E:\byzh_edit_environment\c\TDM-GCC
 Options: 
 
 Options:-DCMAKE_MAKE_PROGRAM=E:/byzh_edit/CLion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe

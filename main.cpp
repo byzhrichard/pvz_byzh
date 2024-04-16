@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "easyx/include/easyx.h"
-#include "easyx/include/graphics.h"
+#include <easyx.h>
+#include <graphics.h>
+#include <conio.h>
 #include "tools/tools.h"
 
 #define WIN_WIDTH 900
@@ -16,13 +17,13 @@ IMAGE imgCards[PLANT_CNT];
 void gameInit() {
     // 背景图片
     // 把字符集修改为“多字节字符集”
-    loadimage(&imgBg, "./res/bg.jpg");
-    loadimage(&imgBar, "./res/bar5.png");
-    loadimage(&imgTest, "./res/Cards/card_1.png");
+    loadimage(&imgBg, "../res/bg.jpg");
+    loadimage(&imgBar, "../res/bar5.png");
+    loadimage(&imgTest, "../res/Cards/card_1.png");
     // 植物卡牌
     char name[64];
     for (int i = 0; i < PLANT_CNT; i++) {
-        sprintf_s(name, sizeof(name), "./res/Cards/card_%d.png",i+1);
+        sprintf_s(name, sizeof(name), "../res/Cards/card_%d.png",i+1);
         loadimage(&imgCards[i], name);
     }
     // 创建图形窗口
@@ -41,7 +42,7 @@ void updateWindow() {
     }
 }
 
-int main(void) {
+int main() {
     gameInit();
 
     updateWindow();
@@ -49,3 +50,4 @@ int main(void) {
     system("pause");
     return 0;
 }
+

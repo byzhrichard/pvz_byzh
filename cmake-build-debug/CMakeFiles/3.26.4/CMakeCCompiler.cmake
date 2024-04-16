@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/gcc.exe")
+set(CMAKE_C_COMPILER "E:/byzh_edit_environment/c/TDM-GCC/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "13.1.0")
+set(CMAKE_C_COMPILER_VERSION "10.3.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "E:/byzh_edit_environment/c/TDM-GCC/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "E:/byzh_edit_environment/c/TDM-GCC/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "E:/byzh_edit_environment/c/TDM-GCC/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "E:/byzh_edit_environment/c/TDM-GCC/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "E:/byzh_edit_environment/c/TDM-GCC/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -66,7 +66,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/include;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;E:/byzh_edit/CLion/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include;E:/byzh_edit_environment/c/TDM-GCC/include;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "E:/byzh_edit_environment/c/TDM-GCC/lib/gcc/x86_64-w64-mingw32/10.3.0;E:/byzh_edit_environment/c/TDM-GCC/lib/gcc;E:/byzh_edit_environment/c/TDM-GCC/x86_64-w64-mingw32/lib;E:/byzh_edit_environment/c/TDM-GCC/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

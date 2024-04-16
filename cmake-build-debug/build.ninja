@@ -51,15 +51,13 @@ build cmake_object_order_depends_target_pvz_byzh: phony || CMakeFiles/pvz_byzh.d
 
 build CMakeFiles/pvz_byzh.dir/main.cpp.obj: CXX_COMPILER__pvz_byzh_unscanned_Debug C$:/Users/byzh/CLionProjects/pvz_byzh/main.cpp || cmake_object_order_depends_target_pvz_byzh
   DEP_FILE = CMakeFiles\pvz_byzh.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/byzh/CLionProjects/pvz_byzh/./easyx/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\pvz_byzh.dir
   OBJECT_FILE_DIR = CMakeFiles\pvz_byzh.dir
 
 build CMakeFiles/pvz_byzh.dir/tools/tools.cpp.obj: CXX_COMPILER__pvz_byzh_unscanned_Debug C$:/Users/byzh/CLionProjects/pvz_byzh/tools/tools.cpp || cmake_object_order_depends_target_pvz_byzh
   DEP_FILE = CMakeFiles\pvz_byzh.dir\tools\tools.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/byzh/CLionProjects/pvz_byzh/./easyx/include
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\pvz_byzh.dir
   OBJECT_FILE_DIR = CMakeFiles\pvz_byzh.dir\tools
 
@@ -73,8 +71,7 @@ build CMakeFiles/pvz_byzh.dir/tools/tools.cpp.obj: CXX_COMPILER__pvz_byzh_unscan
 
 build pvz_byzh.exe: CXX_EXECUTABLE_LINKER__pvz_byzh_Debug CMakeFiles/pvz_byzh.dir/main.cpp.obj CMakeFiles/pvz_byzh.dir/tools/tools.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-Bstatic  -leasyx  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LC:/Users/byzh/CLionProjects/pvz_byzh/./easyx/lib64
+  LINK_LIBRARIES = -Wl,-Bstatic  -leasyx  -lgdi32  -lole32  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pvz_byzh.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

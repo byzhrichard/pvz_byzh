@@ -3,9 +3,8 @@ project(pvz_byzh)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(./easyx/include)
-link_directories(./easyx/lib64)
-link_libraries(libeasyx.a)
+
+link_libraries(libeasyx.a libgdi32.a libole32.a)
 
 add_executable(pvz_byzh main.cpp
         tools/tools.cpp)
