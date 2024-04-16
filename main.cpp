@@ -31,8 +31,9 @@ void gameInit() {
 }
 
 void updateWindow() {
+    BeginBatchDraw(); //开始缓冲
+
     putimage(0,0,&imgBg);
-//    putimage(250,0,&imgBar);
     putimagePNG(250,0,&imgBar);
 
     for (int i = 0; i < PLANT_CNT; i++) {
@@ -40,12 +41,34 @@ void updateWindow() {
         int y = 6;
         putimage(x, y, &imgCards[i]);
     }
+
+    EndBatchDraw(); //结束缓冲
+}
+
+void userClick(){
+    ExMessage msg;
+    if (peekmessage(&msg)){
+        if (msg.message == WM_LBUTTONDOWN){
+            if (msg.x > 338 && msg.x < 338 + 65 * PLANT_CNT && msg.y < 96){
+                int index = (msg.x - 338) / 65;
+                printf("%d\n",index);
+            }
+        } else if (msg.message == WM_MOUSEMOVE){
+
+        }else if (msg.message == WM_LBUTTONUP){
+
+        }
+    };
 }
 
 int main() {
     gameInit();
 
-    updateWindow();
+    while(1){
+        userClick();
+        updateWindow();
+    }
+//    updateWindow();
 
     system("pause");
     return 0;
