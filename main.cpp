@@ -145,13 +145,21 @@ void updateGame(){
 int main() {
     gameInit();
 
+    int timer = 0;
+    bool flag = true;
     while(1){
         userClick();
 
-        updateWindow();
-        updateGame();
-
-        Sleep(10);
+        timer += getDelay();
+        if (timer > 20){
+            flag = true;
+            timer = 0;
+        }
+        if (flag){
+            flag = false;
+            updateWindow();
+            updateGame();
+        }
     }
 //    updateWindow();
 
