@@ -17,12 +17,12 @@ IMAGE* imgPlant[PLANT_CNT][20];
 int curX,curY;  // 当前选中的植物，在移动过程中的位置
 int curPlant;   // 0:没有选中 1:选第一种 ......
 
-struct Plant{
+struct mapPlant{
     int type;
     int frameindex; //序列帧
 };
 
-struct Plant map[3][9];
+struct mapPlant map[3][9];
 
 bool fileExist(const char* name){
     FILE *fp = fopen(name,"r");
@@ -75,12 +75,7 @@ void updateWindow() {
         int y = 6;
         putimage(x, y, &imgCards[i]);
     }
-    //拖动-植物
-    if (curPlant != 0){
-        IMAGE* img = imgPlant[curPlant-1][0];
-        putimagePNG(curX - img->getwidth()/2,curY - img->getheight()/2,img);
-    }
-
+    //场上-植物
     for (int i=0;i<3;i++){
         for (int j=0;j<9;j++){
             if (map[i][j].type > 0){
@@ -91,6 +86,11 @@ void updateWindow() {
                 putimagePNG(x,y,imgPlant[plantType][index]);
             }
         }
+    }
+    //拖动-植物
+    if (curPlant != 0){
+        IMAGE* img = imgPlant[curPlant-1][0];
+        putimagePNG(curX - img->getwidth()/2,curY - img->getheight()/2,img);
     }
     EndBatchDraw(); //结束缓冲
 }
@@ -128,10 +128,12 @@ void userClick(){
 }
 
 void updateGame(){
+    //帧增加
     for (int i = 0;i<3;i++){
         for (int j = 0;j<9;j++){
             if (map[i][j].type > 0){
                 map[i][j].frameindex++;
+
                 int plantType = map[i][j].type-1;
                 int index = map[i][j].frameindex;
                 if (imgPlant[plantType][index] == NULL){
@@ -142,9 +144,35 @@ void updateGame(){
     }
 }
 
+void startUI() {
+    IMAGE imgBg, imgMenu1,imgMenu2;
+    loadimage(&imgBg,"../res/menu.png");
+    loadimage(&imgMenu1,"../res/menu1.png");
+    loadimage(&imgMenu2,"../res/menu2.png");
+
+    int flag = 0;
+    while(1){
+        BeginBatchDraw();
+        putimage(0,0,&imgBg);
+        putimagePNG(474,75,flag ? &imgMenu2 : &imgMenu1);
+        EndBatchDraw();
+        ExMessage msg;
+        if (peekmessage(&msg)){
+            if (msg.message == WM_LBUTTONDOWN &&
+                msg.x > 474 && msg.x < 474 + 300 &&
+                msg.y > 75 && msg.y < 75 + 140){
+                    flag = 1;
+                }
+            } else if(msg.message == WM_LBUTTONUP && flag){
+            return;
+        }
+
+    }
+}
+
 int main() {
     gameInit();
-
+    startUI();
     int timer = 0;
     bool flag = true;
     while(1){
@@ -161,8 +189,6 @@ int main() {
             updateGame();
         }
     }
-//    updateWindow();
-
     system("pause");
     return 0;
 }
