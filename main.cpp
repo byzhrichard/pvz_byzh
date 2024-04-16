@@ -15,7 +15,7 @@ IMAGE imgCards[PLANT_CNT];
 IMAGE* imgPlant[PLANT_CNT][20];
 
 int curX,curY;  // 当前选中的植物，在移动过程中的位置
-int curPlant;   // -1:没有选中 0:选第一种 ......
+int curPlant;   // 0:没有选中 1:选第一种 ......
 
 struct Plant{
     int type;
@@ -59,7 +59,6 @@ void gameInit() {
             }
         }
     }
-    curPlant = -1;
     // 创建图形窗口
     initgraph(WIN_WIDTH, WIN_HEIGHT);
 }
@@ -77,8 +76,8 @@ void updateWindow() {
         putimage(x, y, &imgCards[i]);
     }
     //拖动-植物
-    if (curPlant != -1){
-        IMAGE* img = imgPlant[curPlant][0];
+    if (curPlant != 0){
+        IMAGE* img = imgPlant[curPlant-1][0];
         putimagePNG(curX - img->getwidth()/2,curY - img->getheight()/2,img);
     }
 
@@ -105,7 +104,7 @@ void userClick(){
                 int index = (msg.x - 338) / 65;
 //                printf("%d\n",index);
                 status = 1;
-                curPlant = index;
+                curPlant = index+1;
             }
         } else if (msg.message == WM_MOUSEMOVE && status == 1){
             curX = msg.x;
@@ -116,24 +115,39 @@ void userClick(){
                 int col = (msg.x - 256) / 81;
                 printf("%d %d\n",row,col);
                 if (map[row][col].type == 0){
-                    map[row][col].type = curPlant + 1;
+                    map[row][col].type = curPlant;
                     map[row][col].frameindex = 0;
                 }
             }
 
 
-            curPlant = -1;
+            curPlant = 0;
             status = 0;
         }
     };
 }
+
+//void updateGame(){
+//    for (int i = 0;i<3;i++){
+//        for (int j = 0;j<9;j++){
+//            if (map[i][j].type > 0){
+//                map[i][j].frameindex++;
+//                if (imgPlant[map[i][j].type-1]){
+//                    map[i][j].frameindex = 0;
+//                }
+//            }
+//        }
+//    }
+//}
 
 int main() {
     gameInit();
 
     while(1){
         userClick();
+
         updateWindow();
+//        updateGame();
     }
 //    updateWindow();
 
