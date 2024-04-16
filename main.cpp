@@ -127,18 +127,20 @@ void userClick(){
     };
 }
 
-//void updateGame(){
-//    for (int i = 0;i<3;i++){
-//        for (int j = 0;j<9;j++){
-//            if (map[i][j].type > 0){
-//                map[i][j].frameindex++;
-//                if (imgPlant[map[i][j].type-1]){
-//                    map[i][j].frameindex = 0;
-//                }
-//            }
-//        }
-//    }
-//}
+void updateGame(){
+    for (int i = 0;i<3;i++){
+        for (int j = 0;j<9;j++){
+            if (map[i][j].type > 0){
+                map[i][j].frameindex++;
+                int plantType = map[i][j].type-1;
+                int index = map[i][j].frameindex;
+                if (imgPlant[plantType][index] == NULL){
+                    map[i][j].frameindex = 0;
+                }
+            }
+        }
+    }
+}
 
 int main() {
     gameInit();
@@ -147,7 +149,9 @@ int main() {
         userClick();
 
         updateWindow();
-//        updateGame();
+        updateGame();
+
+        Sleep(10);
     }
 //    updateWindow();
 
