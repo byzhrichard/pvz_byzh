@@ -17,6 +17,13 @@ IMAGE* imgPlant[PLANT_CNT][20];
 int curX,curY;  // 当前选中的植物，在移动过程中的位置
 int curPlant;   // -1:没有选中 0:选第一种 ......
 
+struct Plant{
+    int type;
+    int frameindex; //序列帧
+};
+
+struct Plant map[3][9];
+
 bool fileExist(const char* name){
     FILE *fp = fopen(name,"r");
 
@@ -35,6 +42,7 @@ void gameInit() {
     loadimage(&imgBar, "../res/bar5.png");
     // 植物/植物卡牌
     memset(imgPlant,0, sizeof(imgPlant));
+    memset(map,0, sizeof(map));
     char name[64];
     for (int i = 0; i < PLANT_CNT; i++) {
         sprintf_s(name, sizeof(name), "../res/Cards/card_%d.png",i+1);
@@ -73,6 +81,18 @@ void updateWindow() {
         IMAGE* img = imgPlant[curPlant][0];
         putimagePNG(curX - img->getwidth()/2,curY - img->getheight()/2,img);
     }
+
+    for (int i=0;i<3;i++){
+        for (int j=0;j<9;j++){
+            if (map[i][j].type > 0){
+                int x = 256 + j * 81;
+                int y = 179 + i * 102 + 12;
+                int plantType = map[i][j].type - 1;
+                int index = map[i][j].frameindex;
+                putimagePNG(x,y,imgPlant[plantType][index]);
+            }
+        }
+    }
     EndBatchDraw(); //结束缓冲
 }
 
@@ -83,7 +103,7 @@ void userClick(){
         if (msg.message == WM_LBUTTONDOWN){
             if (msg.x > 338 && msg.x < 338 + 65 * PLANT_CNT && msg.y < 96){
                 int index = (msg.x - 338) / 65;
-                printf("%d\n",index);
+//                printf("%d\n",index);
                 status = 1;
                 curPlant = index;
             }
@@ -91,6 +111,17 @@ void userClick(){
             curX = msg.x;
             curY = msg.y;
         } else if (msg.message == WM_LBUTTONUP){
+            if (msg.x>256 && msg.y>179 && msg.y<489){
+                int row = (msg.y - 179) / 102;
+                int col = (msg.x - 256) / 81;
+                printf("%d %d\n",row,col);
+                if (map[row][col].type == 0){
+                    map[row][col].type = curPlant + 1;
+                    map[row][col].frameindex = 0;
+                }
+            }
+
+
             curPlant = -1;
             status = 0;
         }
