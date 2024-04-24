@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <easyx.h>
+#include <time.h>
 #include <graphics.h>
 #include <conio.h>
 #include "tools/tools.h"
@@ -23,6 +24,17 @@ struct mapPlant{
 };
 
 struct mapPlant map[3][9];
+
+struct sunshineBall{
+    int x,y;    //飘落过程中的坐标
+    int frameindex;
+    int destY;  //飘落的目标位置
+    bool used;   //是否在使用
+    int timer;
+};
+
+struct sunshineBall balls[10];
+IMAGE imgSunshineBall[29];
 
 bool fileExist(const char* name){
     FILE *fp = fopen(name,"r");
@@ -59,6 +71,15 @@ void gameInit() {
             }
         }
     }
+    curPlant = 0;
+
+    memset(balls,0,sizeof(balls));
+    for (int i = 0; i < 29; i++){
+        sprintf_s(name, sizeof(name),"../res/sunshine/%d.png",i+1);
+        loadimage(&imgSunshineBall[i],name);
+    }
+    //配置随机种子
+    srand(time(NULL));
     // 创建图形窗口
     initgraph(WIN_WIDTH, WIN_HEIGHT);
 }
@@ -91,6 +112,14 @@ void updateWindow() {
     if (curPlant != 0){
         IMAGE* img = imgPlant[curPlant-1][0];
         putimagePNG(curX - img->getwidth()/2,curY - img->getheight()/2,img);
+    }
+
+    int ballMax = sizeof(balls) / sizeof(balls[0]);
+    for (int i = 0;i<ballMax;i++){
+        if (balls[i].used){
+            IMAGE* img = &imgSunshineBall[balls[i].frameindex];
+            putimagePNG(balls[i].x,balls[i].y,img);
+        }
     }
     EndBatchDraw(); //结束缓冲
 }
@@ -127,6 +156,47 @@ void userClick(){
     };
 }
 
+void createSunshine(){
+    static int count = 0;
+    static int fre = 400;
+    count++;
+    if (count >= fre){
+        fre = 200 + rand() % 200;
+        count = 0;
+
+        //从阳光池中去一个可以使用的
+        int ballMax = sizeof(balls)/ sizeof(balls[0]);
+
+        int i;
+        for (i = 0;i<ballMax && balls[i].used;i++);
+        if (i>=ballMax) return;
+
+        balls[i].used = true;
+        balls[i].frameindex = 0;
+        balls[i].x = 260 + rand() % (900-260);//260-900
+        balls[i].y = 60;
+        balls[i].destY = 200 + (rand() % 4) * 90;
+        balls[i].timer = 0;
+    }
+
+}
+void updateSunshine(){
+    int ballMax = sizeof(balls)/ sizeof(balls[0]);
+    for (int i = 0;i<ballMax;i++){
+        if (balls[i].used) {
+            balls[i].frameindex = (balls[i].frameindex + 1) % 29;
+            if (balls[i].timer == 0){
+                balls[i].y += 2;
+            }
+            if (balls[i].y > balls[i].destY){
+                balls[i].timer ++;
+                if (balls[i].timer > 100){
+                    balls[i].used = false;
+                }
+            }
+        }
+    }
+}
 void updateGame(){
     //帧增加
     for (int i = 0;i<3;i++){
@@ -142,6 +212,9 @@ void updateGame(){
             }
         }
     }
+
+    createSunshine();
+    updateSunshine();
 }
 
 void startUI() {
